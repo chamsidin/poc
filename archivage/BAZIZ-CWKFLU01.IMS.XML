@@ -1,0 +1,368 @@
+<ComplexMapping
+xmlns="http://schemas.matmut.fr/complexMapping"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Mappings>
+    <Mapping xsi:type="SimpleMapping">
+      <Name>CD-APPLI-ORIGINE</Name>
+      <DataLength>6</DataLength>
+      <TypeString>System.String</TypeString>
+      <Align>alLeft</Align>
+    </Mapping>
+    <Mapping xsi:type="SimpleMapping">
+      <Name>CD-VERSION</Name>
+      <DataLength>2</DataLength>
+      <TypeString>System.String</TypeString>
+      <Align>alLeft</Align>
+    </Mapping>
+    <Mapping xsi:type="SimpleMapping">
+      <Name>CD-OPERATION-ENTREE</Name>
+      <DataLength>1</DataLength>
+      <TypeString>System.String</TypeString>
+      <Align>alLeft</Align>
+    </Mapping>
+    <Mapping xsi:type="SimpleMapping">
+      <Name>CPT-MAJ</Name>
+      <DataLength>2</DataLength>
+      <TypeString>System.String</TypeString>
+      <Align>alLeft</Align>
+    </Mapping>
+    <Mapping xsi:type="ComplexMapping">
+      <Name>ID-FLUGES</Name>
+      <Mappings>
+        <Mapping xsi:type="SimpleMapping">
+          <Name>ANNEE</Name>
+          <DataLength>2</DataLength>
+          <TypeString>System.String</TypeString>
+          <Align>alLeft</Align>
+        </Mapping>
+        <Mapping xsi:type="SimpleMapping">
+          <Name>NUM-SEQ-FLUGES</Name>
+          <DataLength>8</DataLength>
+          <TypeString>System.String</TypeString>
+          <Align>alLeft</Align>
+        </Mapping>
+      </Mappings>
+    </Mapping>
+    <Mapping xsi:type="SimpleMapping">
+      <Name>CATEGORIE-TACHE</Name>
+      <DataLength>1</DataLength>
+      <TypeString>System.String</TypeString>
+      <Align>alLeft</Align>
+    </Mapping>
+    <Mapping xsi:type="SimpleMapping">
+      <Name>TYP-TACHE</Name>
+      <DataLength>1</DataLength>
+      <TypeString>System.String</TypeString>
+      <Align>alLeft</Align>
+    </Mapping>
+    <Mapping xsi:type="SimpleMapping">
+      <Name>SOUS-TYPE</Name>
+      <DataLength>10</DataLength>
+      <TypeString>System.String</TypeString>
+      <Align>alLeft</Align>
+    </Mapping>
+    <Mapping xsi:type="ComplexMapping">
+      <Name>CREE-LE</Name>
+      <Mappings>
+        <Mapping xsi:type="SimpleMapping">
+          <Name>SIECLE</Name>
+          <DataLength>2</DataLength>
+          <TypeString>System.String</TypeString>
+          <Align>alLeft</Align>
+        </Mapping>
+        <Mapping xsi:type="SimpleMapping">
+          <Name>ANNEE</Name>
+          <DataLength>2</DataLength>
+          <TypeString>System.String</TypeString>
+          <Align>alLeft</Align>
+        </Mapping>
+        <Mapping xsi:type="SimpleMapping">
+          <Name>MOIS</Name>
+          <DataLength>2</DataLength>
+          <TypeString>System.String</TypeString>
+          <Align>alLeft</Align>
+        </Mapping>
+        <Mapping xsi:type="SimpleMapping">
+          <Name>JOUR</Name>
+          <DataLength>2</DataLength>
+          <TypeString>System.String</TypeString>
+          <Align>alLeft</Align>
+        </Mapping>
+      </Mappings>
+    </Mapping>
+    <Mapping xsi:type="SimpleMapping">
+      <Name>CREE-PAR</Name>
+      <DataLength>20</DataLength>
+      <TypeString>System.String</TypeString>
+      <Align>alLeft</Align>
+    </Mapping>
+    <Mapping xsi:type="ComplexMapping">
+      <Name>NUM-SITE-ORIGINE</Name>
+      <Mappings>
+        <Mapping xsi:type="ComplexMapping">
+          <Name>NUM-UG-ORIGINE</Name>
+          <Mappings>
+            <Mapping xsi:type="SimpleMapping">
+              <Name>TYPE-SRV</Name>
+              <DataLength>2</DataLength>
+              <TypeString>System.String</TypeString>
+              <Align>alLeft</Align>
+            </Mapping>
+            <Mapping xsi:type="SimpleMapping">
+              <Name>NUM-GRP-GEST-ORIGINE</Name>
+              <DataLength>2</DataLength>
+              <TypeString>System.String</TypeString>
+              <Align>alLeft</Align>
+            </Mapping>
+            <Mapping xsi:type="SimpleMapping">
+              <Name>FILLER00001</Name>
+              <DataLength>1</DataLength>
+              <TypeString>System.String</TypeString>
+              <Align>alLeft</Align>
+            </Mapping>
+          </Mappings>
+        </Mapping>
+      </Mappings>
+    </Mapping>
+    <Mapping xsi:type="ComplexMapping">
+      <Name>A-TRAITE-LE</Name>
+      <Mappings>
+        <Mapping xsi:type="SimpleMapping">
+          <Name>SIECLE</Name>
+          <DataLength>2</DataLength>
+          <TypeString>System.String</TypeString>
+          <Align>alLeft</Align>
+        </Mapping>
+        <Mapping xsi:type="SimpleMapping">
+          <Name>ANNEE</Name>
+          <DataLength>2</DataLength>
+          <TypeString>System.String</TypeString>
+          <Align>alLeft</Align>
+        </Mapping>
+        <Mapping xsi:type="SimpleMapping">
+          <Name>MOIS</Name>
+          <DataLength>2</DataLength>
+          <TypeString>System.String</TypeString>
+          <Align>alLeft</Align>
+        </Mapping>
+        <Mapping xsi:type="SimpleMapping">
+          <Name>JOUR</Name>
+          <DataLength>2</DataLength>
+          <TypeString>System.String</TypeString>
+          <Align>alLeft</Align>
+        </Mapping>
+      </Mappings>
+    </Mapping>
+    <Mapping xsi:type="SimpleMapping">
+      <Name>A-TRAITE-PAR</Name>
+      <DataLength>20</DataLength>
+      <TypeString>System.String</TypeString>
+      <Align>alLeft</Align>
+    </Mapping>
+    <Mapping xsi:type="SimpleMapping">
+      <Name>ETAT</Name>
+      <DataLength>1</DataLength>
+      <TypeString>System.String</TypeString>
+      <Align>alLeft</Align>
+    </Mapping>
+    <Mapping xsi:type="SimpleMapping">
+      <Name>HABILITATION</Name>
+      <DataLength>2</DataLength>
+      <TypeString>System.String</TypeString>
+      <Align>alLeft</Align>
+    </Mapping>
+    <Mapping xsi:type="SimpleMapping">
+      <Name>TACHE-MULTIDEST</Name>
+      <DataLength>1</DataLength>
+      <TypeString>System.String</TypeString>
+      <Align>alLeft</Align>
+    </Mapping>
+    <Mapping xsi:type="SimpleMapping">
+      <Name>FILLER00002</Name>
+      <DataLength>1</DataLength>
+      <TypeString>System.String</TypeString>
+      <Align>alLeft</Align>
+    </Mapping>
+    <Mapping xsi:type="ComplexMapping">
+      <Name>NUM-SITE</Name>
+      <Mappings>
+        <Mapping xsi:type="ComplexMapping">
+          <Name>NUM-UG</Name>
+          <Mappings>
+            <Mapping xsi:type="SimpleMapping">
+              <Name>TYPE-SRV</Name>
+              <DataLength>2</DataLength>
+              <TypeString>System.String</TypeString>
+              <Align>alLeft</Align>
+            </Mapping>
+            <Mapping xsi:type="SimpleMapping">
+              <Name>NUM-GRP-GEST</Name>
+              <DataLength>2</DataLength>
+              <TypeString>System.String</TypeString>
+              <Align>alLeft</Align>
+            </Mapping>
+            <Mapping xsi:type="SimpleMapping">
+              <Name>FILLER00003</Name>
+              <DataLength>1</DataLength>
+              <TypeString>System.String</TypeString>
+              <Align>alLeft</Align>
+            </Mapping>
+          </Mappings>
+        </Mapping>
+      </Mappings>
+    </Mapping>
+    <Mapping xsi:type="SimpleMapping">
+      <Name>TYP-REF-GESTION</Name>
+      <DataLength>1</DataLength>
+      <TypeString>System.String</TypeString>
+      <Align>alLeft</Align>
+    </Mapping>
+    <Mapping xsi:type="ComplexMapping">
+      <Name>REF-GESTION</Name>
+      <Mappings>
+        <Mapping xsi:type="ComplexMapping">
+          <Name>REF-SOC</Name>
+          <Mappings>
+            <Mapping xsi:type="SimpleMapping">
+              <Name>ANC-REF</Name>
+              <DataLength>12</DataLength>
+              <TypeString>System.String</TypeString>
+              <Align>alLeft</Align>
+            </Mapping>
+            <Mapping xsi:type="SimpleMapping">
+              <Name>CLE-ANC</Name>
+              <DataLength>1</DataLength>
+              <TypeString>System.String</TypeString>
+              <Align>alLeft</Align>
+            </Mapping>
+          </Mappings>
+        </Mapping>
+      </Mappings>
+    </Mapping>
+    <Mapping xsi:type="SimpleMapping">
+      <Name>INTERCAL</Name>
+      <DataLength>2</DataLength>
+      <TypeString>System.String</TypeString>
+      <Align>alLeft</Align>
+    </Mapping>
+    <Mapping xsi:type="SimpleMapping">
+      <Name>BRANCHE</Name>
+      <DataLength>1</DataLength>
+      <TypeString>System.String</TypeString>
+      <Align>alLeft</Align>
+    </Mapping>
+    <Mapping xsi:type="SimpleMapping">
+      <Name>COMMENTAIRE</Name>
+      <DataLength>70</DataLength>
+      <TypeString>System.String</TypeString>
+      <Align>alLeft</Align>
+    </Mapping>
+    <Mapping xsi:type="SimpleMapping">
+      <Name>CONSIGNE</Name>
+      <DataLength>50</DataLength>
+      <TypeString>System.String</TypeString>
+      <Align>alLeft</Align>
+    </Mapping>
+    <Mapping xsi:type="ComplexMapping">
+      <Name>MAJ-LE</Name>
+      <Mappings>
+        <Mapping xsi:type="SimpleMapping">
+          <Name>SIECLE</Name>
+          <DataLength>2</DataLength>
+          <TypeString>System.String</TypeString>
+          <Align>alLeft</Align>
+        </Mapping>
+        <Mapping xsi:type="SimpleMapping">
+          <Name>ANNEE</Name>
+          <DataLength>2</DataLength>
+          <TypeString>System.String</TypeString>
+          <Align>alLeft</Align>
+        </Mapping>
+        <Mapping xsi:type="SimpleMapping">
+          <Name>MOIS</Name>
+          <DataLength>2</DataLength>
+          <TypeString>System.String</TypeString>
+          <Align>alLeft</Align>
+        </Mapping>
+        <Mapping xsi:type="SimpleMapping">
+          <Name>JOUR</Name>
+          <DataLength>2</DataLength>
+          <TypeString>System.String</TypeString>
+          <Align>alLeft</Align>
+        </Mapping>
+      </Mappings>
+    </Mapping>
+    <Mapping xsi:type="SimpleMapping">
+      <Name>CD-PRIORITE</Name>
+      <DataLength>1</DataLength>
+      <TypeString>System.String</TypeString>
+      <Align>alLeft</Align>
+    </Mapping>
+    <Mapping xsi:type="SimpleMapping">
+      <Name>CD-MOTIF-CTC</Name>
+      <DataLength>2</DataLength>
+      <TypeString>System.String</TypeString>
+      <Align>alLeft</Align>
+    </Mapping>
+    <Mapping xsi:type="SimpleMapping">
+      <Name>CD-SOUS-MOTIF-CTC</Name>
+      <DataLength>4</DataLength>
+      <TypeString>System.String</TypeString>
+      <Align>alLeft</Align>
+    </Mapping>
+    <Mapping xsi:type="SimpleMapping">
+      <Name>TOP-VISIBLE-IUT</Name>
+      <DataLength>1</DataLength>
+      <TypeString>System.String</TypeString>
+      <Align>alLeft</Align>
+    </Mapping>
+    <Mapping xsi:type="SimpleMapping">
+      <Name>FILLER00004</Name>
+      <DataLength>191</DataLength>
+      <TypeString>System.String</TypeString>
+      <Align>alLeft</Align>
+    </Mapping>
+    <Mapping xsi:type="ComplexMapping">
+      <Name>DETAIL-FLUGES-AG</Name>
+      <Mappings>
+        <Mapping xsi:type="SimpleMapping">
+          <Name>DETAIL-FLUGES</Name>
+          <DataLength>50</DataLength>
+          <TypeString>System.String</TypeString>
+          <Align>alLeft</Align>
+        </Mapping>
+        <Mapping xsi:type="SimpleMapping">
+          <Name>FILLER00005</Name>
+          <DataLength>150</DataLength>
+          <TypeString>System.String</TypeString>
+          <Align>alLeft</Align>
+        </Mapping>
+      </Mappings>
+    </Mapping>
+    <Mapping xsi:type="SimpleMapping">
+      <Name>CLEARC-DUP</Name>
+      <DataLength>10</DataLength>
+      <TypeString>System.String</TypeString>
+      <Align>alLeft</Align>
+    </Mapping>
+    <Mapping xsi:type="SimpleMapping">
+      <Name>ID-FLUGES-DUP</Name>
+      <DataLength>10</DataLength>
+      <TypeString>System.String</TypeString>
+      <Align>alLeft</Align>
+    </Mapping>
+    <Mapping xsi:type="SimpleMapping">
+      <Name>DETAIL-FLUX</Name>
+      <DataLength>2900</DataLength>
+      <TypeString>System.String</TypeString>
+      <Align>alLeft</Align>
+    </Mapping>
+    <Mapping xsi:type="SimpleMapping">
+      <Name>FILLER00006</Name>
+      <DataLength>332</DataLength>
+      <TypeString>System.String</TypeString>
+      <Align>alLeft</Align>
+    </Mapping>
+  </Mappings>
+</ComplexMapping>

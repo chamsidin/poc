@@ -1,0 +1,78 @@
+<ComplexMapping
+xmlns="http://schemas.matmut.fr/complexMapping"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Mappings>
+    <Mapping xsi:type="SimpleMapping">
+      <Name>CD-APPLI-ORIGINE</Name>
+      <DataLength>6</DataLength>
+      <TypeString>System.String</TypeString>
+      <Align>alLeft</Align>
+    </Mapping>
+    <Mapping xsi:type="SimpleMapping">
+      <Name>CD-VERSION</Name>
+      <DataLength>2</DataLength>
+      <TypeString>System.String</TypeString>
+      <Align>alLeft</Align>
+    </Mapping>
+    <Mapping xsi:type="SimpleMapping">
+      <Name>CLEARC</Name>
+      <DataLength>10</DataLength>
+      <TypeString>System.String</TypeString>
+      <Align>alLeft</Align>
+    </Mapping>
+    <Mapping xsi:type="SimpleMapping">
+      <Name>CDACCES</Name>
+      <DataLength>1</DataLength>
+      <TypeString>System.String</TypeString>
+      <Align>alLeft</Align>
+    </Mapping>
+    <Mapping xsi:type="SimpleMapping">
+      <Name>CDARC</Name>
+      <DataLength>1</DataLength>
+      <TypeString>System.String</TypeString>
+      <Align>alLeft</Align>
+    </Mapping>
+    <Mapping xsi:type="SimpleMapping">
+      <Name>NOM-MICRO</Name>
+      <DataLength>8</DataLength>
+      <TypeString>System.String</TypeString>
+      <Align>alLeft</Align>
+    </Mapping>
+    <Mapping xsi:type="SimpleMapping">
+      <Name>REFARC</Name>
+      <DataLength>12</DataLength>
+      <TypeString>System.String</TypeString>
+      <Align>alLeft</Align>
+    </Mapping>
+    <Mapping xsi:type="SimpleMapping">
+      <Name>TYPARC</Name>
+      <DataLength>2</DataLength>
+      <TypeString>System.String</TypeString>
+      <Align>alLeft</Align>
+    </Mapping>
+    <Mapping xsi:type="SimpleMapping">
+      <Name>NOM-PRENOM</Name>
+      <DataLength>20</DataLength>
+      <TypeString>System.String</TypeString>
+      <Align>alLeft</Align>
+    </Mapping>
+    <Mapping xsi:type="ComplexMapping">
+      <Name>A-TRAITE-PAR-ID</Name>
+      <Mappings>
+        <Mapping xsi:type="SimpleMapping">
+          <Name>ID-UNIQUE</Name>
+          <DataLength>56</DataLength>
+          <TypeString>System.String</TypeString>
+          <Align>alLeft</Align>
+        </Mapping>
+      </Mappings>
+    </Mapping>
+    <Mapping xsi:type="SimpleMapping">
+      <Name>FILLER00001</Name>
+      <DataLength>82</DataLength>
+      <TypeString>System.String</TypeString>
+      <Align>alLeft</Align>
+    </Mapping>
+  </Mappings>
+</ComplexMapping>
