@@ -1,9 +1,9 @@
-médecin traitant
+mÃ©decin traitant
 
-gir : taux de dépendance
+gir : taux de dÃ©pendance
 apa :
 
-rdv après 17h00
+rdv aprÃ¨s 17h00
 Lundi 18:30
 
 dispo mardi ap-midi ap 17:00
@@ -26,3 +26,4 @@ Madame Pimont
 clic st etienne du Ry
 
 Coucou les filles
+Mouais
